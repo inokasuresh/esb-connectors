@@ -1,4 +1,0 @@
-{
-     "accessToken":"%s(accessToken)",
-      "urlforLookup":"%s(urlforLookup)"
-}

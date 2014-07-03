@@ -1,5 +1,0 @@
-{
-     "accessToken":"%s(accessToken)",
-    "shortUrlforInfo":"%s(shortUrlforInfo)",
-    "expandUserinfo":"%s(expandUserinfo)"
-}

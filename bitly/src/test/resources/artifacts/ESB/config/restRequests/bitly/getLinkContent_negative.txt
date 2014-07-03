@@ -1,6 +1,0 @@
-{
-
-        "accessToken":"%s(accessTokenNegative)",
-        "bitlyLinkforContent":"%s(bitlyLinkforContent)",
-        "contentType":"%s(contentType)"
-    }

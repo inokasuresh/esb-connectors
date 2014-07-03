@@ -1,4 +1,0 @@
-{
-     "accessToken":"%s(accessTokenNegative)",
-    "shortUrlforInfo":"%s(shortUrlforInfo)"
-}
