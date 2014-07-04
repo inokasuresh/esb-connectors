@@ -68,7 +68,7 @@ public class BitlyConnectorIntegrationTest extends ConnectorIntegrationTestBase 
     public void testGetOAuthAppNegativeParameters() throws Exception {
 
         esbRequestHeadersMap.put("Action", "urn:getOauthApp");
-
+//
         String apiEndPoint = "https://api-ssl.bitly.com/v3/oauth/app?access_token=" + connectorProperties.getProperty("accessTokenNegative") + "&client_id=" + connectorProperties.getProperty("clientId");
 
         RestResponse<JSONObject> esbRestResponse = sendJsonRestRequest(proxyUrl, "POST", esbRequestHeadersMap, "getOAuthApp_Negative.txt");

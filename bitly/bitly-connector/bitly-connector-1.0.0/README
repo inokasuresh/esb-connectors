@@ -40,45 +40,19 @@
 	
 	   (src/test/resources/keystores/products and src/test/resources/keystores/stratos) 
 
- 4. Before attempting to run integration tests, uncomment the following in pom.xml:
+ 4. Create a Bitly account using the URL "https://bitly.com/" and store the generic access-token you get after successfully registering the application.
 
-	i)<parent>
-        	<groupId>org.wso2.esb</groupId>
-        	<artifactId>esb-integration-tests</artifactId>
-        	<version>4.8.1</version>
-        	<relativePath>../pom.xml</relativePath>
-    	   </parent>
+ 5. Update the bitly.properties file with your details if you have any or you can use the default account details as it is.
 
-	ii) <dependency>
-            	<groupId>org.wso2.esb</groupId>
-            	<artifactId>org.wso2.connector.integration.test.base</artifactId>
-            	<version>4.8.1</version>
-           	 <scope>system</scope>
-           	 <systemPath>${basedir}/repository/org.wso2.connector.integration.test.base-4.8.1.jar</systemPath>
-       	   </dependency>
+    accessTokenNegative=32bf9d3a30158969a76a3484916c017af98099ed
+	clientId=136dd4d95433bdc36f32493a2db66683df5574a2
+	clientSecret=becfde302002ad94d50f9c51c7e905e991fba069
 
-
-
- 4. Make sure the bitly test suite is enabled (as given below) and all other test suites are commented in the "testng.xml" file - "bitly/src/test/resources/testng.xml" 
-
-	 <test name="Bitly-Connector-Test" preserve-order="true" verbose="2">
-		<packages>
-		    <package name="org.wso2.carbon.connector.integration.test.bitly"/>
-		</packages>
-    	</test>
-
- 5. Create a Bitly account using the URL "https://bitly.com/" and store the generic access-token you get after successfully registering the application.
-
- 6. Update the bitly.properties file with your details if you have any or you can use the default account details as it is.
-
-    	accessTokenNegative=b2c707e30a1219a7bf0d2adead244dd
-	clientId=6813e06e166cc731c44b00e40e1d9053324b9abe
-	clientSecret=b761f2a933cddd619155700296679d01b677b508	
-
- 9. Navigate to "${basedir}" and run the following command.
+ 6. Navigate to "${basedir}" and run the following command.
      $ mvn clean install
 
 
- 10. NOTE : Following developer account can be used for run the integration tests.
- 	Username : 
- 	Password : 
+ 7. NOTE : Following developer account can be used for run the integration tests.
+ 	Username : bitlywso2
+ 	Password : wso2carbon
+
