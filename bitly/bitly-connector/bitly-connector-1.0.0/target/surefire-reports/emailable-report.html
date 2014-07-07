@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Bitly-Connector-Test</td><td class="numi">90</td><td class="numi">90</td><td class="numi">0</td><td class="numi">0</td><td class="numi">124.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">Bitly-Connector-Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="90">org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<td><a href="#m1"><b>testGetOAuthAppNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getUOauthApp} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">657</td></tr><tr class="passedodd"><td><a href="#m2"><b>testGetBundleLinkRemoveMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getBundleLinkRemove} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">537</td></tr><tr class="passedodd"><td><a href="#m3"><b>testGetLinkClicksWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getLinkClicks} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">563</td></tr><tr class="passedodd"><td><a href="#m4"><b>testGetInfoWithOptionalParameters</b> (java.lang.reflect.Method) ("bitly{getInfo} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">525</td></tr><tr class="passedodd"><td><a href="#m5"><b>testGetPopularLinksMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getPopularLinks} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">590</td></tr><tr class="passedodd"><td><a href="#m6"><b>testGetSearchWithOptionalParameters</b> (java.lang.reflect.Method) ("bitly{getSearch} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">2613</td></tr><tr class="passedodd"><td><a href="#m7"><b>testGetLookUpWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getLookup} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">543</td></tr><tr class="passedodd"><td><a href="#m8"><b>testGetReferringDomainsMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getReferringDomains} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">547</td></tr><tr class="passedodd"><td><a href="#m9"><b>testCreateBundleOptionalParameters</b> (java.lang.reflect.Method) ("bitly {createBundle} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">551</td></tr><tr class="passedodd"><td><a href="#m10"><b>testGetUserBundleHistoryNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getUserBundleHistory} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">587</td></tr><tr class="passedodd"><td><a href="#m11"><b>testGetSearchWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getSearch} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">540</td></tr><tr class="passedodd"><td><a href="#m12"><b>testGetShortnWithOptionalParameters</b> (java.lang.reflect.Method) ("bitly{getShorten} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">537</td></tr><tr class="passedodd"><td><a href="#m13"><b>testGetExpandWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getExpand} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">562</td></tr><tr class="passedodd"><td><a href="#m14"><b>testGetHighValueWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getHighvalue} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">1145</td></tr><tr class="passedodd"><td><a href="#m15"><b>testGetReferringDomainsNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getReferringDomains} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">527</td></tr><tr class="passedodd"><td><a href="#m16"><b>testGetBundlEviewCountNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getBundlEviewCount} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">546</td></tr><tr class="passedodd"><td><a href="#m17"><b>testGetLinkSaveWithOptionalParameters</b> (java.lang.reflect.Method) ("bitly{getLinkSave} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">589</td></tr><tr class="passedodd"><td><a href="#m18"><b>testEditBundleMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {editBundle} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">591</td></tr><tr class="passedodd"><td><a href="#m19"><b>testGetUserClicksMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getUserClicks} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">539</td></tr><tr class="passedodd"><td><a href="#m20"><b>testGetTrackingDomainClicksNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getTrackingDomainClicks} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">604</td></tr><tr class="passedodd"><td><a href="#m21"><b>testGetShareCountsNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getShareCounts} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">576</td></tr><tr class="passedodd"><td><a href="#m22"><b>testGetLinkCatagoryWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getLinkCatagory} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">525</td></tr><tr class="passedodd"><td><a href="#m23"><b>testGetLinkSharesWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getLinkShares} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">544</td></tr><tr class="passedodd"><td><a href="#m24"><b>testCreateBundleMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {createBundle} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">1136</td></tr><tr class="passedodd"><td><a href="#m25"><b>testGetShortnWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getShorten} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">571</td></tr><tr class="passedodd"><td><a href="#m26"><b>testGetShareCountsMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getShareCounts} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">561</td></tr><tr class="passedodd"><td><a href="#m27"><b>testGetReferrersOptionalParameters</b> (java.lang.reflect.Method) ("bitly {getReferrers} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">620</td></tr><tr class="passedodd"><td><a href="#m28"><b>testGetLinkCountriesWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getLinkCountries} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">591</td></tr><tr class="passedodd"><td><a href="#m29"><b>testGetPopularLinksNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getPopularLinks} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">511</td></tr><tr class="passedodd"><td><a href="#m30"><b>testGetLinkContentWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getLinkContent} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">1086</td></tr><tr class="passedodd"><td><a href="#m31"><b>testGetBundlEviewCountMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getBundlEviewCount} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">569</td></tr><tr class="passedodd"><td><a href="#m32"><b>testGetLinkSharesWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getLinkShares} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">509</td></tr><tr class="passedodd"><td><a href="#m33"><b>testGetInfoWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getInfo} integration test with nagative parameters.")</a></td><td class="numi">1</td><td class="numi">562</td></tr><tr class="passedodd"><td><a href="#m34"><b>testEditBundleOptionalParameters</b> (java.lang.reflect.Method) ("bitly {editBundle} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">580</td></tr><tr class="passedodd"><td><a href="#m35"><b>testGetCountriesMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getCountries} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">566</td></tr><tr class="passedodd"><td><a href="#m36"><b>testGetUserLinkHistoryOptionalParameters</b> (java.lang.reflect.Method) ("bitly {getUserLinkHistory} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">1149</td></tr><tr class="passedodd"><td><a href="#m37"><b>testGetTrackingDomainShortenCountsMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getTrackingDomainShortenCounts} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">593</td></tr><tr class="passedodd"><td><a href="#m38"><b>testDeleteBundleMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {deleteBundle} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">559</td></tr><tr class="passedodd"><td><a href="#m39"><b>testGetUserNetworkHistoryOptionalParameters</b> (java.lang.reflect.Method) ("bitly {getUserNetworkHistory} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">591</td></tr><tr class="passedodd"><td><a href="#m40"><b>testGetReferringDomainsOptionalParameters</b> (java.lang.reflect.Method) ("bitly {getReferringDomains} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">549</td></tr><tr class="passedodd"><td><a href="#m41"><b>testGetTrackingDomainShortenCountsNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getTrackingDomainShortenCounts} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">550</td></tr><tr class="passedodd"><td><a href="#m42"><b>testAddLinkToBundleNegativeParameters</b> (java.lang.reflect.Method) ("bitly {addLinkToBundle} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">590</td></tr><tr class="passedodd"><td><a href="#m43"><b>testGetCountriesNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getCountries} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">522</td></tr><tr class="passedodd"><td><a href="#m44"><b>testGetLinkContentWithOptionalParameters</b> (java.lang.reflect.Method) ("bitly{getLinkContent} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">1171</td></tr><tr class="passedodd"><td><a href="#m45"><b>testGetBundlesByUserMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getBundlesByUser} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">546</td></tr><tr class="passedodd"><td><a href="#m46"><b>testGetLinkSaveWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getLinkSave} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">1005</td></tr><tr class="passedodd"><td><a href="#m47"><b>testGetPopularLinksOptionalParameters</b> (java.lang.reflect.Method) ("bitly {getPopularLinks} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">646</td></tr><tr class="passedodd"><td><a href="#m48"><b>testGetSearchWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getSearch} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">2794</td></tr><tr class="passedodd"><td><a href="#m49"><b>testGetUserBundleHistoryOptionalParameters</b> (java.lang.reflect.Method) ("bitly {getUserBundleHistory} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">1096</td></tr><tr class="passedodd"><td><a href="#m50"><b>testEditBundleNegativeParameters</b> (java.lang.reflect.Method) ("bitly {editBundle} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">565</td></tr><tr class="passedodd"><td><a href="#m51"><b>testAddLinkToBundleMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {addLinkToBundle} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">4918</td></tr><tr class="passedodd"><td><a href="#m52"><b>testGetLinkSaveWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getLinkSave} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">1046</td></tr><tr class="passedodd"><td><a href="#m53"><b>testGetReferrersNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getReferrers} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">498</td></tr><tr class="passedodd"><td><a href="#m54"><b>testGetLinkReferringDomainsWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getLinkReferringDomains} integration test with Negative parameters.")</a></td><td class="numi">1</td><td class="numi">708</td></tr><tr class="passedodd"><td><a href="#m55"><b>testGetUserInfoOptionalParameters</b> (java.lang.reflect.Method) ("bitly {getUserInfo} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">936</td></tr><tr class="passedodd"><td><a href="#m56"><b>testGetReferrersMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getReferrers} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">531</td></tr><tr class="passedodd"><td><a href="#m57"><b>testDeleteBundleNegativeParameters</b> (java.lang.reflect.Method) ("bitly {deleteBundle} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">644</td></tr><tr class="passedodd"><td><a href="#m58"><b>testCreateBundleNegativeParameters</b> (java.lang.reflect.Method) ("bitly {createBundle} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">542</td></tr><tr class="passedodd"><td><a href="#m59"><b>testGetUserNetworkHistoryNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getUserNetworkHistory} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">492</td></tr><tr class="passedodd"><td><a href="#m60"><b>testGetBundleLinkRemoveNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getBundleLinkRemove} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">521</td></tr><tr class="passedodd"><td><a href="#m61"><b>testGetHighValueWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getHighvalue} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">1062</td></tr><tr class="passedodd"><td><a href="#m62"><b>testGetBundleContentsNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getBundleContents} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">536</td></tr><tr class="passedodd"><td><a href="#m63"><b>testGetExpandWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getExpand} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">971</td></tr><tr class="passedodd"><td><a href="#m64"><b>testGetLookUpWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getLookup} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">1068</td></tr><tr class="passedodd"><td><a href="#m65"><b>testGetBundleContentsMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getBundleContents} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">590</td></tr><tr class="passedodd"><td><a href="#m66"><b>testGetBundlesByUserOptionalParameters</b> (java.lang.reflect.Method) ("bitly {getBundlesByUser} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">1007</td></tr><tr class="passedodd"><td><a href="#m67"><b>testGetBundleContentsOptionalParameters</b> (java.lang.reflect.Method) ("bitly {getBundleContents} integration test with optional parameters.")</a></td><td class="numi">1</td><td class="numi">566</td></tr><tr class="passedodd"><td><a href="#m68"><b>testGetLinkInfoWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getLinkInfo} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">582</td></tr><tr class="passedodd"><td><a href="#m69"><b>testGetUserClicksNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getUserClicks} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">567</td></tr><tr class="passedodd"><td><a href="#m70"><b>testGetLinkCatagoryWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getLinkCatagory} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">703</td></tr><tr class="passedodd"><td><a href="#m71"><b>testGetUserNetworkHistoryMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getUserNetworkHistory} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">593</td></tr><tr class="passedodd"><td><a href="#m72"><b>testGetTrackingDomainClicksMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getTrackingDomainClicks} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">637</td></tr><tr class="passedodd"><td><a href="#m73"><b>testGetTrackingDomainListNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getTrackingDomainList} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">695</td></tr><tr class="passedodd"><td><a href="#m74"><b>testGetUserInfoNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getUserInfo} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">678</td></tr><tr class="passedodd"><td><a href="#m75"><b>testGetUserInfoMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getUserInfo} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">669</td></tr><tr class="passedodd"><td><a href="#m76"><b>testGetLinkInfoWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getLinkInfo} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">516</td></tr><tr class="passedodd"><td><a href="#m77"><b>testGetBundlesByUserNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getBundlesByUser} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">544</td></tr><tr class="passedodd"><td><a href="#m78"><b>testGetOAuthAppMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getUOauthApp} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">524</td></tr><tr class="passedodd"><td><a href="#m79"><b>testGetUserLinkHistoryNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getUserLinkHistory} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">593</td></tr><tr class="passedodd"><td><a href="#m80"><b>testGetLinkReferringDomainsWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getLinkReferringDomains} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">552</td></tr><tr class="passedodd"><td><a href="#m81"><b>testGetLinkCountriesWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getLinkCountries} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">586</td></tr><tr class="passedodd"><td><a href="#m82"><b>testGetLinkClicksWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getLinkClicks} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">523</td></tr><tr class="passedodd"><td><a href="#m83"><b>testGetUserLinkHistoryMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getUserLinkHistory} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">1123</td></tr><tr class="passedodd"><td><a href="#m84"><b>testGetTrackingDomainListMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getTrackingDomainList} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">513</td></tr><tr class="passedodd"><td><a href="#m85"><b>testGetUserBundleHistoryMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getUserBundleHistory} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">615</td></tr><tr class="passedodd"><td><a href="#m86"><b>testGetShortnWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getShorten} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">555</td></tr><tr class="passedodd"><td><a href="#m87"><b>testGetLinkContentWithNegativeParameters</b> (java.lang.reflect.Method) ("bitly{getLinkContent} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">771</td></tr><tr class="passedodd"><td><a href="#m88"><b>testGetProDomainNegativeParameters</b> (java.lang.reflect.Method) ("bitly {getProDomain} integration test with negative parameters.")</a></td><td class="numi">1</td><td class="numi">588</td></tr><tr class="passedodd"><td><a href="#m89"><b>testGetInfoWithMandatoryParameters</b> (java.lang.reflect.Method) ("bitly{getInfo} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">1994</td></tr><tr class="passedodd"><td><a href="#m90"><b>testGetProDomainMandatoryParameters</b> (java.lang.reflect.Method) ("bitly {getProDomain} integration test with mandatory parameters.")</a></td><td class="numi">1</td><td class="numi">537</td></tr>
+</table>
+<h1>Bitly-Connector-Test</h1>
+<a id="m1"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetOAuthAppNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetBundleLinkRemoveMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkClicksWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetInfoWithOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetPopularLinksMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetSearchWithOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLookUpWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetReferringDomainsMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testCreateBundleOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserBundleHistoryNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetSearchWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetShortnWithOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetExpandWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetHighValueWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetReferringDomainsNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetBundlEviewCountNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m17"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkSaveWithOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m18"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testEditBundleMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m19"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserClicksMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m20"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetTrackingDomainClicksNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m21"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetShareCountsNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m22"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkCatagoryWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m23"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkSharesWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m24"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testCreateBundleMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m25"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetShortnWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m26"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetShareCountsMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m27"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetReferrersOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m28"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkCountriesWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m29"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetPopularLinksNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m30"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkContentWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m31"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetBundlEviewCountMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m32"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkSharesWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m33"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetInfoWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m34"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testEditBundleOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m35"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetCountriesMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m36"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserLinkHistoryOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m37"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetTrackingDomainShortenCountsMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m38"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testDeleteBundleMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m39"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserNetworkHistoryOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m40"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetReferringDomainsOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m41"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetTrackingDomainShortenCountsNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m42"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testAddLinkToBundleNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m43"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetCountriesNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m44"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkContentWithOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m45"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetBundlesByUserMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m46"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkSaveWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m47"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetPopularLinksOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m48"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetSearchWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m49"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserBundleHistoryOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m50"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testEditBundleNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m51"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testAddLinkToBundleMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m52"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkSaveWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m53"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetReferrersNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m54"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkReferringDomainsWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m55"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserInfoOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m56"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetReferrersMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m57"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testDeleteBundleNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m58"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testCreateBundleNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m59"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserNetworkHistoryNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m60"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetBundleLinkRemoveNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m61"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetHighValueWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m62"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetBundleContentsNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m63"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetExpandWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m64"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLookUpWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m65"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetBundleContentsMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m66"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetBundlesByUserOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m67"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetBundleContentsOptionalParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m68"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkInfoWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m69"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserClicksNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m70"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkCatagoryWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m71"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserNetworkHistoryMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m72"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetTrackingDomainClicksMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m73"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetTrackingDomainListNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m74"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserInfoNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m75"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserInfoMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m76"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkInfoWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m77"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetBundlesByUserNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m78"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetOAuthAppMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m79"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserLinkHistoryNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m80"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkReferringDomainsWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m81"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkCountriesWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m82"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkClicksWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m83"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserLinkHistoryMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m84"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetTrackingDomainListMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m85"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetUserBundleHistoryMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m86"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetShortnWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m87"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetLinkContentWithNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m88"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetProDomainNegativeParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m89"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetInfoWithMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m90"></a><h2>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest:testGetProDomainMandatoryParameters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

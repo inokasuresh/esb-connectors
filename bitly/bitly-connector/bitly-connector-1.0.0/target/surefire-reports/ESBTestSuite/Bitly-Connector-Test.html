@@ -1,0 +1,529 @@
+<html>
+<head>
+<title>TestNG:  Bitly-Connector-Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Bitly-Connector-Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>90/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 07 12:11:33 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>124 seconds (124141 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testAddLinkToBundleMandatoryParameters()'><b>testAddLinkToBundleMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {addLinkToBundle} integration test with mandatory parameters.</td>
+<td></td>
+<td>4</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testAddLinkToBundleNegativeParameters()'><b>testAddLinkToBundleNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {addLinkToBundle} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testCreateBundleMandatoryParameters()'><b>testCreateBundleMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {createBundle} integration test with mandatory parameters.</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testCreateBundleNegativeParameters()'><b>testCreateBundleNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {createBundle} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testCreateBundleOptionalParameters()'><b>testCreateBundleOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {createBundle} integration test with optional parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testDeleteBundleMandatoryParameters()'><b>testDeleteBundleMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {deleteBundle} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testDeleteBundleNegativeParameters()'><b>testDeleteBundleNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {deleteBundle} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testEditBundleMandatoryParameters()'><b>testEditBundleMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {editBundle} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testEditBundleNegativeParameters()'><b>testEditBundleNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {editBundle} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testEditBundleOptionalParameters()'><b>testEditBundleOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {editBundle} integration test with optional parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundlEviewCountMandatoryParameters()'><b>testGetBundlEviewCountMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getBundlEviewCount} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundlEviewCountNegativeParameters()'><b>testGetBundlEviewCountNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getBundlEviewCount} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundleContentsMandatoryParameters()'><b>testGetBundleContentsMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getBundleContents} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundleContentsNegativeParameters()'><b>testGetBundleContentsNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getBundleContents} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundleContentsOptionalParameters()'><b>testGetBundleContentsOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getBundleContents} integration test with optional parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundleLinkRemoveMandatoryParameters()'><b>testGetBundleLinkRemoveMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getBundleLinkRemove} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundleLinkRemoveNegativeParameters()'><b>testGetBundleLinkRemoveNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getBundleLinkRemove} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundlesByUserMandatoryParameters()'><b>testGetBundlesByUserMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getBundlesByUser} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundlesByUserNegativeParameters()'><b>testGetBundlesByUserNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getBundlesByUser} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundlesByUserOptionalParameters()'><b>testGetBundlesByUserOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getBundlesByUser} integration test with optional parameters.</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetCountriesMandatoryParameters()'><b>testGetCountriesMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getCountries} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetCountriesNegativeParameters()'><b>testGetCountriesNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getCountries} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetExpandWithMandatoryParameters()'><b>testGetExpandWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getExpand} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetExpandWithNegativeParameters()'><b>testGetExpandWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getExpand} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetHighValueWithMandatoryParameters()'><b>testGetHighValueWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getHighvalue} integration test with mandatory parameters.</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetHighValueWithNegativeParameters()'><b>testGetHighValueWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getHighvalue} integration test with negative parameters.</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetInfoWithMandatoryParameters()'><b>testGetInfoWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getInfo} integration test with mandatory parameters.</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetInfoWithNegativeParameters()'><b>testGetInfoWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getInfo} integration test with nagative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetInfoWithOptionalParameters()'><b>testGetInfoWithOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getInfo} integration test with optional parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkCatagoryWithMandatoryParameters()'><b>testGetLinkCatagoryWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkCatagory} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkCatagoryWithNegativeParameters()'><b>testGetLinkCatagoryWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkCatagory} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkClicksWithMandatoryParameters()'><b>testGetLinkClicksWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkClicks} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkClicksWithNegativeParameters()'><b>testGetLinkClicksWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkClicks} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkContentWithMandatoryParameters()'><b>testGetLinkContentWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkContent} integration test with mandatory parameters.</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkContentWithNegativeParameters()'><b>testGetLinkContentWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkContent} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkContentWithOptionalParameters()'><b>testGetLinkContentWithOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkContent} integration test with mandatory parameters.</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkCountriesWithMandatoryParameters()'><b>testGetLinkCountriesWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkCountries} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkCountriesWithNegativeParameters()'><b>testGetLinkCountriesWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkCountries} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkInfoWithMandatoryParameters()'><b>testGetLinkInfoWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkInfo} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkInfoWithNegativeParameters()'><b>testGetLinkInfoWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkInfo} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkReferringDomainsWithMandatoryParameters()'><b>testGetLinkReferringDomainsWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkReferringDomains} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkReferringDomainsWithNegativeParameters()'><b>testGetLinkReferringDomainsWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkReferringDomains} integration test with Negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkSaveWithMandatoryParameters()'><b>testGetLinkSaveWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkSave} integration test with mandatory parameters.</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkSaveWithNegativeParameters()'><b>testGetLinkSaveWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkSave} integration test with negative parameters.</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkSaveWithOptionalParameters()'><b>testGetLinkSaveWithOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkSave} integration test with optional parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkSharesWithMandatoryParameters()'><b>testGetLinkSharesWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkShares} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkSharesWithNegativeParameters()'><b>testGetLinkSharesWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLinkShares} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLookUpWithMandatoryParameters()'><b>testGetLookUpWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLookup} integration test with mandatory parameters.</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLookUpWithNegativeParameters()'><b>testGetLookUpWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getLookup} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetOAuthAppMandatoryParameters()'><b>testGetOAuthAppMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUOauthApp} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetOAuthAppNegativeParameters()'><b>testGetOAuthAppNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUOauthApp} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetPopularLinksMandatoryParameters()'><b>testGetPopularLinksMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getPopularLinks} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetPopularLinksNegativeParameters()'><b>testGetPopularLinksNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getPopularLinks} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetPopularLinksOptionalParameters()'><b>testGetPopularLinksOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getPopularLinks} integration test with optional parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetProDomainMandatoryParameters()'><b>testGetProDomainMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getProDomain} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetProDomainNegativeParameters()'><b>testGetProDomainNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getProDomain} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetReferrersMandatoryParameters()'><b>testGetReferrersMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getReferrers} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetReferrersNegativeParameters()'><b>testGetReferrersNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getReferrers} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetReferrersOptionalParameters()'><b>testGetReferrersOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getReferrers} integration test with optional parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetReferringDomainsMandatoryParameters()'><b>testGetReferringDomainsMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getReferringDomains} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetReferringDomainsNegativeParameters()'><b>testGetReferringDomainsNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getReferringDomains} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetReferringDomainsOptionalParameters()'><b>testGetReferringDomainsOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getReferringDomains} integration test with optional parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetSearchWithMandatoryParameters()'><b>testGetSearchWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getSearch} integration test with mandatory parameters.</td>
+<td></td>
+<td>2</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetSearchWithNegativeParameters()'><b>testGetSearchWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getSearch} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetSearchWithOptionalParameters()'><b>testGetSearchWithOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getSearch} integration test with mandatory parameters.</td>
+<td></td>
+<td>2</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetShareCountsMandatoryParameters()'><b>testGetShareCountsMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getShareCounts} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetShareCountsNegativeParameters()'><b>testGetShareCountsNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getShareCounts} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetShortnWithMandatoryParameters()'><b>testGetShortnWithMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getShorten} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetShortnWithNegativeParameters()'><b>testGetShortnWithNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getShorten} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetShortnWithOptionalParameters()'><b>testGetShortnWithOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly{getShorten} integration test with optional parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetTrackingDomainClicksMandatoryParameters()'><b>testGetTrackingDomainClicksMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getTrackingDomainClicks} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetTrackingDomainClicksNegativeParameters()'><b>testGetTrackingDomainClicksNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getTrackingDomainClicks} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetTrackingDomainListMandatoryParameters()'><b>testGetTrackingDomainListMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getTrackingDomainList} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetTrackingDomainListNegativeParameters()'><b>testGetTrackingDomainListNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getTrackingDomainList} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetTrackingDomainShortenCountsMandatoryParameters()'><b>testGetTrackingDomainShortenCountsMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getTrackingDomainShortenCounts} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetTrackingDomainShortenCountsNegativeParameters()'><b>testGetTrackingDomainShortenCountsNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getTrackingDomainShortenCounts} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserBundleHistoryMandatoryParameters()'><b>testGetUserBundleHistoryMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserBundleHistory} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserBundleHistoryNegativeParameters()'><b>testGetUserBundleHistoryNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserBundleHistory} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserBundleHistoryOptionalParameters()'><b>testGetUserBundleHistoryOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserBundleHistory} integration test with optional parameters.</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserClicksMandatoryParameters()'><b>testGetUserClicksMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserClicks} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserClicksNegativeParameters()'><b>testGetUserClicksNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserClicks} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserInfoMandatoryParameters()'><b>testGetUserInfoMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserInfo} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserInfoNegativeParameters()'><b>testGetUserInfoNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserInfo} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserInfoOptionalParameters()'><b>testGetUserInfoOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserInfo} integration test with optional parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserLinkHistoryMandatoryParameters()'><b>testGetUserLinkHistoryMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserLinkHistory} integration test with mandatory parameters.</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserLinkHistoryNegativeParameters()'><b>testGetUserLinkHistoryNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserLinkHistory} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserLinkHistoryOptionalParameters()'><b>testGetUserLinkHistoryOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserLinkHistory} integration test with optional parameters.</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserNetworkHistoryMandatoryParameters()'><b>testGetUserNetworkHistoryMandatoryParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserNetworkHistory} integration test with mandatory parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserNetworkHistoryNegativeParameters()'><b>testGetUserNetworkHistoryNegativeParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserNetworkHistory} integration test with negative parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+<tr>
+<td title='org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserNetworkHistoryOptionalParameters()'><b>testGetUserNetworkHistoryOptionalParameters</b><br>Test class: org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest<br>Test method: bitly {getUserNetworkHistory} integration test with optional parameters.</td>
+<td></td>
+<td>0</td>
+<td>org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest@6764bcd3</td></tr>
+</table><p>
+</body>
+</html>

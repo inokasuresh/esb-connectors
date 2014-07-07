@@ -44,7 +44,7 @@
 
  5. Update the bitly.properties file with your details if you have any or you can use the default account details as it is.
 
-    accessTokenNegative=32bf9d3a30158969a76a3484916c017af98099ed
+    	accessTokenNegative=32bf9d3a30158969a76a3484916c017af98099ed
 	clientId=136dd4d95433bdc36f32493a2db66683df5574a2
 	clientSecret=becfde302002ad94d50f9c51c7e905e991fba069
 
@@ -55,4 +55,5 @@
  7. NOTE : Following developer account can be used for run the integration tests.
  	Username : bitlywso2
  	Password : wso2carbon
-
+	email 	 : bitlywso2test@gmail.com
+	

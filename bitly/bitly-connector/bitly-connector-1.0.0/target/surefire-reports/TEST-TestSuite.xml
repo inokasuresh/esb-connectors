@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="68.594" errors="0" skipped="0" tests="90" name="TestSuite">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.51-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/inoka/Desktop/codebase/esb-connectors/bitly/bitly-connector/bitly-connector-1.0.0"/>
+    <property name="java.runtime.version" value="1.7.0_55-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.11.0-20-generic"/>
+    <property name="user.home" value="/home/inoka"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="inoka"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_55"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="5.013" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testAddLinkToBundleMandatoryParameters"/>
+  <testcase time="0.452" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testAddLinkToBundleNegativeParameters"/>
+  <testcase time="1.136" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testCreateBundleMandatoryParameters"/>
+  <testcase time="0.543" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testCreateBundleNegativeParameters"/>
+  <testcase time="0.551" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testCreateBundleOptionalParameters"/>
+  <testcase time="0.558" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testDeleteBundleMandatoryParameters"/>
+  <testcase time="0.645" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testDeleteBundleNegativeParameters"/>
+  <testcase time="0.592" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testEditBundleMandatoryParameters"/>
+  <testcase time="0.565" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testEditBundleNegativeParameters"/>
+  <testcase time="0.58" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testEditBundleOptionalParameters"/>
+  <testcase time="0.568" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetBundlEviewCountMandatoryParameters"/>
+  <testcase time="0.547" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetBundlEviewCountNegativeParameters"/>
+  <testcase time="0.59" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetBundleContentsMandatoryParameters"/>
+  <testcase time="0.536" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetBundleContentsNegativeParameters"/>
+  <testcase time="0.566" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetBundleContentsOptionalParameters"/>
+  <testcase time="0.538" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetBundleLinkRemoveMandatoryParameters"/>
+  <testcase time="0.521" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetBundleLinkRemoveNegativeParameters"/>
+  <testcase time="0.545" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetBundlesByUserMandatoryParameters"/>
+  <testcase time="0.544" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetBundlesByUserNegativeParameters"/>
+  <testcase time="1.007" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetBundlesByUserOptionalParameters"/>
+  <testcase time="0.566" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetCountriesMandatoryParameters"/>
+  <testcase time="0.522" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetCountriesNegativeParameters"/>
+  <testcase time="0.971" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetExpandWithMandatoryParameters"/>
+  <testcase time="0.562" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetExpandWithNegativeParameters"/>
+  <testcase time="1.061" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetHighValueWithMandatoryParameters"/>
+  <testcase time="1.146" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetHighValueWithNegativeParameters"/>
+  <testcase time="1.995" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetInfoWithMandatoryParameters"/>
+  <testcase time="0.562" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetInfoWithNegativeParameters"/>
+  <testcase time="0.525" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetInfoWithOptionalParameters"/>
+  <testcase time="0.703" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkCatagoryWithMandatoryParameters"/>
+  <testcase time="0.524" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkCatagoryWithNegativeParameters"/>
+  <testcase time="0.563" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkClicksWithMandatoryParameters"/>
+  <testcase time="0.524" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkClicksWithNegativeParameters"/>
+  <testcase time="1.087" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkContentWithMandatoryParameters"/>
+  <testcase time="0.772" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkContentWithNegativeParameters"/>
+  <testcase time="1.171" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkContentWithOptionalParameters"/>
+  <testcase time="0.59" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkCountriesWithMandatoryParameters"/>
+  <testcase time="0.587" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkCountriesWithNegativeParameters"/>
+  <testcase time="0.583" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkInfoWithMandatoryParameters"/>
+  <testcase time="0.516" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkInfoWithNegativeParameters"/>
+  <testcase time="0.552" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkReferringDomainsWithMandatoryParameters"/>
+  <testcase time="0.707" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkReferringDomainsWithNegativeParameters"/>
+  <testcase time="1.046" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkSaveWithMandatoryParameters"/>
+  <testcase time="1.005" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkSaveWithNegativeParameters"/>
+  <testcase time="0.59" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkSaveWithOptionalParameters"/>
+  <testcase time="0.544" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkSharesWithMandatoryParameters"/>
+  <testcase time="0.509" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLinkSharesWithNegativeParameters"/>
+  <testcase time="1.068" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLookUpWithMandatoryParameters"/>
+  <testcase time="0.543" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetLookUpWithNegativeParameters"/>
+  <testcase time="0.524" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetOAuthAppMandatoryParameters"/>
+  <testcase time="0.658" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetOAuthAppNegativeParameters"/>
+  <testcase time="0.59" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetPopularLinksMandatoryParameters"/>
+  <testcase time="0.511" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetPopularLinksNegativeParameters"/>
+  <testcase time="0.647" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetPopularLinksOptionalParameters"/>
+  <testcase time="0.537" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetProDomainMandatoryParameters"/>
+  <testcase time="0.588" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetProDomainNegativeParameters"/>
+  <testcase time="0.531" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetReferrersMandatoryParameters"/>
+  <testcase time="0.498" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetReferrersNegativeParameters"/>
+  <testcase time="0.62" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetReferrersOptionalParameters"/>
+  <testcase time="0.547" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetReferringDomainsMandatoryParameters"/>
+  <testcase time="0.528" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetReferringDomainsNegativeParameters"/>
+  <testcase time="0.549" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetReferringDomainsOptionalParameters"/>
+  <testcase time="2.794" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetSearchWithMandatoryParameters"/>
+  <testcase time="0.54" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetSearchWithNegativeParameters"/>
+  <testcase time="2.613" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetSearchWithOptionalParameters"/>
+  <testcase time="0.561" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetShareCountsMandatoryParameters"/>
+  <testcase time="0.576" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetShareCountsNegativeParameters"/>
+  <testcase time="0.554" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetShortnWithMandatoryParameters"/>
+  <testcase time="0.571" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetShortnWithNegativeParameters"/>
+  <testcase time="0.538" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetShortnWithOptionalParameters"/>
+  <testcase time="0.638" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetTrackingDomainClicksMandatoryParameters"/>
+  <testcase time="0.604" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetTrackingDomainClicksNegativeParameters"/>
+  <testcase time="0.513" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetTrackingDomainListMandatoryParameters"/>
+  <testcase time="0.695" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetTrackingDomainListNegativeParameters"/>
+  <testcase time="0.593" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetTrackingDomainShortenCountsMandatoryParameters"/>
+  <testcase time="0.549" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetTrackingDomainShortenCountsNegativeParameters"/>
+  <testcase time="0.615" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserBundleHistoryMandatoryParameters"/>
+  <testcase time="0.588" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserBundleHistoryNegativeParameters"/>
+  <testcase time="1.096" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserBundleHistoryOptionalParameters"/>
+  <testcase time="0.54" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserClicksMandatoryParameters"/>
+  <testcase time="0.568" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserClicksNegativeParameters"/>
+  <testcase time="0.67" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserInfoMandatoryParameters"/>
+  <testcase time="0.679" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserInfoNegativeParameters"/>
+  <testcase time="0.936" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserInfoOptionalParameters"/>
+  <testcase time="1.123" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserLinkHistoryMandatoryParameters"/>
+  <testcase time="0.594" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserLinkHistoryNegativeParameters"/>
+  <testcase time="1.149" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserLinkHistoryOptionalParameters"/>
+  <testcase time="0.594" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserNetworkHistoryMandatoryParameters"/>
+  <testcase time="0.493" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserNetworkHistoryNegativeParameters"/>
+  <testcase time="0.591" classname="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest" name="testGetUserNetworkHistoryOptionalParameters"/>
+</testsuite>

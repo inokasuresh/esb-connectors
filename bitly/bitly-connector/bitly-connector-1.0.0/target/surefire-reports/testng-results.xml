@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="90" passed="90">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ESBTestSuite" duration-ms="124141" started-at="2014-07-07T12:11:33Z" finished-at="2014-07-07T12:13:37Z">
+    <groups>
+      <group name="java.lang.reflect.Method">
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testAddLinkToBundleMandatoryParameters()" name="testAddLinkToBundleMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testAddLinkToBundleNegativeParameters()" name="testAddLinkToBundleNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testCreateBundleMandatoryParameters()" name="testCreateBundleMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testCreateBundleNegativeParameters()" name="testCreateBundleNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testCreateBundleOptionalParameters()" name="testCreateBundleOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testDeleteBundleMandatoryParameters()" name="testDeleteBundleMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testDeleteBundleNegativeParameters()" name="testDeleteBundleNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testEditBundleMandatoryParameters()" name="testEditBundleMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testEditBundleNegativeParameters()" name="testEditBundleNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testEditBundleOptionalParameters()" name="testEditBundleOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundlEviewCountMandatoryParameters()" name="testGetBundlEviewCountMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundlEviewCountNegativeParameters()" name="testGetBundlEviewCountNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundleContentsMandatoryParameters()" name="testGetBundleContentsMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundleContentsNegativeParameters()" name="testGetBundleContentsNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundleContentsOptionalParameters()" name="testGetBundleContentsOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundleLinkRemoveMandatoryParameters()" name="testGetBundleLinkRemoveMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundleLinkRemoveNegativeParameters()" name="testGetBundleLinkRemoveNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundlesByUserMandatoryParameters()" name="testGetBundlesByUserMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundlesByUserNegativeParameters()" name="testGetBundlesByUserNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetBundlesByUserOptionalParameters()" name="testGetBundlesByUserOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetCountriesMandatoryParameters()" name="testGetCountriesMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetCountriesNegativeParameters()" name="testGetCountriesNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetExpandWithMandatoryParameters()" name="testGetExpandWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetExpandWithNegativeParameters()" name="testGetExpandWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetHighValueWithMandatoryParameters()" name="testGetHighValueWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetHighValueWithNegativeParameters()" name="testGetHighValueWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetInfoWithMandatoryParameters()" name="testGetInfoWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetInfoWithNegativeParameters()" name="testGetInfoWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetInfoWithOptionalParameters()" name="testGetInfoWithOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkCatagoryWithMandatoryParameters()" name="testGetLinkCatagoryWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkCatagoryWithNegativeParameters()" name="testGetLinkCatagoryWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkClicksWithMandatoryParameters()" name="testGetLinkClicksWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkClicksWithNegativeParameters()" name="testGetLinkClicksWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkContentWithMandatoryParameters()" name="testGetLinkContentWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkContentWithNegativeParameters()" name="testGetLinkContentWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkContentWithOptionalParameters()" name="testGetLinkContentWithOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkCountriesWithMandatoryParameters()" name="testGetLinkCountriesWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkCountriesWithNegativeParameters()" name="testGetLinkCountriesWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkInfoWithMandatoryParameters()" name="testGetLinkInfoWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkInfoWithNegativeParameters()" name="testGetLinkInfoWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkReferringDomainsWithMandatoryParameters()" name="testGetLinkReferringDomainsWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkReferringDomainsWithNegativeParameters()" name="testGetLinkReferringDomainsWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkSaveWithMandatoryParameters()" name="testGetLinkSaveWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkSaveWithNegativeParameters()" name="testGetLinkSaveWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkSaveWithOptionalParameters()" name="testGetLinkSaveWithOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkSharesWithMandatoryParameters()" name="testGetLinkSharesWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLinkSharesWithNegativeParameters()" name="testGetLinkSharesWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLookUpWithMandatoryParameters()" name="testGetLookUpWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetLookUpWithNegativeParameters()" name="testGetLookUpWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetOAuthAppMandatoryParameters()" name="testGetOAuthAppMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetOAuthAppNegativeParameters()" name="testGetOAuthAppNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetPopularLinksMandatoryParameters()" name="testGetPopularLinksMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetPopularLinksNegativeParameters()" name="testGetPopularLinksNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetPopularLinksOptionalParameters()" name="testGetPopularLinksOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetProDomainMandatoryParameters()" name="testGetProDomainMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetProDomainNegativeParameters()" name="testGetProDomainNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetReferrersMandatoryParameters()" name="testGetReferrersMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetReferrersNegativeParameters()" name="testGetReferrersNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetReferrersOptionalParameters()" name="testGetReferrersOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetReferringDomainsMandatoryParameters()" name="testGetReferringDomainsMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetReferringDomainsNegativeParameters()" name="testGetReferringDomainsNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetReferringDomainsOptionalParameters()" name="testGetReferringDomainsOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetSearchWithMandatoryParameters()" name="testGetSearchWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetSearchWithNegativeParameters()" name="testGetSearchWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetSearchWithOptionalParameters()" name="testGetSearchWithOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetShareCountsMandatoryParameters()" name="testGetShareCountsMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetShareCountsNegativeParameters()" name="testGetShareCountsNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetShortnWithMandatoryParameters()" name="testGetShortnWithMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetShortnWithNegativeParameters()" name="testGetShortnWithNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetShortnWithOptionalParameters()" name="testGetShortnWithOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetTrackingDomainClicksMandatoryParameters()" name="testGetTrackingDomainClicksMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetTrackingDomainClicksNegativeParameters()" name="testGetTrackingDomainClicksNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetTrackingDomainListMandatoryParameters()" name="testGetTrackingDomainListMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetTrackingDomainListNegativeParameters()" name="testGetTrackingDomainListNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetTrackingDomainShortenCountsMandatoryParameters()" name="testGetTrackingDomainShortenCountsMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetTrackingDomainShortenCountsNegativeParameters()" name="testGetTrackingDomainShortenCountsNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserBundleHistoryMandatoryParameters()" name="testGetUserBundleHistoryMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserBundleHistoryNegativeParameters()" name="testGetUserBundleHistoryNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserBundleHistoryOptionalParameters()" name="testGetUserBundleHistoryOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserClicksMandatoryParameters()" name="testGetUserClicksMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserClicksNegativeParameters()" name="testGetUserClicksNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserInfoMandatoryParameters()" name="testGetUserInfoMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserInfoNegativeParameters()" name="testGetUserInfoNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserInfoOptionalParameters()" name="testGetUserInfoOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserLinkHistoryMandatoryParameters()" name="testGetUserLinkHistoryMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserLinkHistoryNegativeParameters()" name="testGetUserLinkHistoryNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserLinkHistoryOptionalParameters()" name="testGetUserLinkHistoryOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserNetworkHistoryMandatoryParameters()" name="testGetUserNetworkHistoryMandatoryParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserNetworkHistoryNegativeParameters()" name="testGetUserNetworkHistoryNegativeParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+        <method signature="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest.testGetUserNetworkHistoryOptionalParameters()" name="testGetUserNetworkHistoryOptionalParameters" class="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest"/>
+      </group>
+    </groups>
+    <test name="Bitly-Connector-Test" duration-ms="124141" started-at="2014-07-07T12:11:33Z" finished-at="2014-07-07T12:13:37Z">
+      <class name="org.wso2.carbon.connector.integration.test.bitly.BitlyConnectorIntegrationTest">
+        <test-method status="PASS" signature="setEnvironment()" name="setEnvironment" is-config="true" duration-ms="55246" started-at="2014-07-07T12:11:33Z" finished-at="2014-07-07T12:12:28Z">
+        </test-method>
+        <test-method status="PASS" signature="testAddLinkToBundleMandatoryParameters()" name="testAddLinkToBundleMandatoryParameters" duration-ms="4918" started-at="2014-07-07T12:12:28Z" description="bitly {addLinkToBundle} integration test with mandatory parameters." finished-at="2014-07-07T12:12:33Z">
+        </test-method>
+        <test-method status="PASS" signature="testAddLinkToBundleNegativeParameters()" name="testAddLinkToBundleNegativeParameters" duration-ms="590" started-at="2014-07-07T12:12:33Z" description="bitly {addLinkToBundle} integration test with negative parameters." finished-at="2014-07-07T12:12:34Z">
+        </test-method>
+        <test-method status="PASS" signature="testCreateBundleMandatoryParameters()" name="testCreateBundleMandatoryParameters" duration-ms="1136" started-at="2014-07-07T12:12:34Z" description="bitly {createBundle} integration test with mandatory parameters." finished-at="2014-07-07T12:12:35Z">
+        </test-method>
+        <test-method status="PASS" signature="testCreateBundleNegativeParameters()" name="testCreateBundleNegativeParameters" duration-ms="542" started-at="2014-07-07T12:12:35Z" description="bitly {createBundle} integration test with negative parameters." finished-at="2014-07-07T12:12:35Z">
+        </test-method>
+        <test-method status="PASS" signature="testCreateBundleOptionalParameters()" name="testCreateBundleOptionalParameters" duration-ms="551" started-at="2014-07-07T12:12:35Z" description="bitly {createBundle} integration test with optional parameters." finished-at="2014-07-07T12:12:36Z">
+        </test-method>
+        <test-method status="PASS" signature="testDeleteBundleMandatoryParameters()" name="testDeleteBundleMandatoryParameters" duration-ms="559" started-at="2014-07-07T12:12:36Z" description="bitly {deleteBundle} integration test with mandatory parameters." finished-at="2014-07-07T12:12:36Z">
+        </test-method>
+        <test-method status="PASS" signature="testDeleteBundleNegativeParameters()" name="testDeleteBundleNegativeParameters" duration-ms="644" started-at="2014-07-07T12:12:36Z" description="bitly {deleteBundle} integration test with negative parameters." finished-at="2014-07-07T12:12:37Z">
+        </test-method>
+        <test-method status="PASS" signature="testEditBundleMandatoryParameters()" name="testEditBundleMandatoryParameters" duration-ms="591" started-at="2014-07-07T12:12:37Z" description="bitly {editBundle} integration test with mandatory parameters." finished-at="2014-07-07T12:12:38Z">
+        </test-method>
+        <test-method status="PASS" signature="testEditBundleNegativeParameters()" name="testEditBundleNegativeParameters" duration-ms="565" started-at="2014-07-07T12:12:38Z" description="bitly {editBundle} integration test with negative parameters." finished-at="2014-07-07T12:12:38Z">
+        </test-method>
+        <test-method status="PASS" signature="testEditBundleOptionalParameters()" name="testEditBundleOptionalParameters" duration-ms="580" started-at="2014-07-07T12:12:38Z" description="bitly {editBundle} integration test with optional parameters." finished-at="2014-07-07T12:12:39Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetBundlEviewCountMandatoryParameters()" name="testGetBundlEviewCountMandatoryParameters" duration-ms="569" started-at="2014-07-07T12:12:39Z" description="bitly {getBundlEviewCount} integration test with mandatory parameters." finished-at="2014-07-07T12:12:39Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetBundlEviewCountNegativeParameters()" name="testGetBundlEviewCountNegativeParameters" duration-ms="546" started-at="2014-07-07T12:12:39Z" description="bitly {getBundlEviewCount} integration test with negative parameters." finished-at="2014-07-07T12:12:40Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetBundleContentsMandatoryParameters()" name="testGetBundleContentsMandatoryParameters" duration-ms="590" started-at="2014-07-07T12:12:40Z" description="bitly {getBundleContents} integration test with mandatory parameters." finished-at="2014-07-07T12:12:40Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetBundleContentsNegativeParameters()" name="testGetBundleContentsNegativeParameters" duration-ms="536" started-at="2014-07-07T12:12:40Z" description="bitly {getBundleContents} integration test with negative parameters." finished-at="2014-07-07T12:12:41Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetBundleContentsOptionalParameters()" name="testGetBundleContentsOptionalParameters" duration-ms="566" started-at="2014-07-07T12:12:41Z" description="bitly {getBundleContents} integration test with optional parameters." finished-at="2014-07-07T12:12:42Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetBundleLinkRemoveMandatoryParameters()" name="testGetBundleLinkRemoveMandatoryParameters" duration-ms="537" started-at="2014-07-07T12:12:42Z" description="bitly {getBundleLinkRemove} integration test with mandatory parameters." finished-at="2014-07-07T12:12:42Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetBundleLinkRemoveNegativeParameters()" name="testGetBundleLinkRemoveNegativeParameters" duration-ms="521" started-at="2014-07-07T12:12:42Z" description="bitly {getBundleLinkRemove} integration test with negative parameters." finished-at="2014-07-07T12:12:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetBundlesByUserMandatoryParameters()" name="testGetBundlesByUserMandatoryParameters" duration-ms="546" started-at="2014-07-07T12:12:43Z" description="bitly {getBundlesByUser} integration test with mandatory parameters." finished-at="2014-07-07T12:12:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetBundlesByUserNegativeParameters()" name="testGetBundlesByUserNegativeParameters" duration-ms="544" started-at="2014-07-07T12:12:43Z" description="bitly {getBundlesByUser} integration test with negative parameters." finished-at="2014-07-07T12:12:44Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetBundlesByUserOptionalParameters()" name="testGetBundlesByUserOptionalParameters" duration-ms="1007" started-at="2014-07-07T12:12:44Z" description="bitly {getBundlesByUser} integration test with optional parameters." finished-at="2014-07-07T12:12:45Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetCountriesMandatoryParameters()" name="testGetCountriesMandatoryParameters" duration-ms="566" started-at="2014-07-07T12:12:45Z" description="bitly {getCountries} integration test with mandatory parameters." finished-at="2014-07-07T12:12:45Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetCountriesNegativeParameters()" name="testGetCountriesNegativeParameters" duration-ms="522" started-at="2014-07-07T12:12:45Z" description="bitly {getCountries} integration test with negative parameters." finished-at="2014-07-07T12:12:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetExpandWithMandatoryParameters()" name="testGetExpandWithMandatoryParameters" duration-ms="971" started-at="2014-07-07T12:12:46Z" description="bitly{getExpand} integration test with mandatory parameters." finished-at="2014-07-07T12:12:47Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetExpandWithNegativeParameters()" name="testGetExpandWithNegativeParameters" duration-ms="562" started-at="2014-07-07T12:12:47Z" description="bitly{getExpand} integration test with negative parameters." finished-at="2014-07-07T12:12:47Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetHighValueWithMandatoryParameters()" name="testGetHighValueWithMandatoryParameters" duration-ms="1062" started-at="2014-07-07T12:12:47Z" description="bitly{getHighvalue} integration test with mandatory parameters." finished-at="2014-07-07T12:12:48Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetHighValueWithNegativeParameters()" name="testGetHighValueWithNegativeParameters" duration-ms="1145" started-at="2014-07-07T12:12:48Z" description="bitly{getHighvalue} integration test with negative parameters." finished-at="2014-07-07T12:12:50Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetInfoWithMandatoryParameters()" name="testGetInfoWithMandatoryParameters" duration-ms="1994" started-at="2014-07-07T12:12:50Z" description="bitly{getInfo} integration test with mandatory parameters." finished-at="2014-07-07T12:12:52Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetInfoWithNegativeParameters()" name="testGetInfoWithNegativeParameters" duration-ms="562" started-at="2014-07-07T12:12:52Z" description="bitly{getInfo} integration test with nagative parameters." finished-at="2014-07-07T12:12:52Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetInfoWithOptionalParameters()" name="testGetInfoWithOptionalParameters" duration-ms="525" started-at="2014-07-07T12:12:52Z" description="bitly{getInfo} integration test with optional parameters." finished-at="2014-07-07T12:12:53Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkCatagoryWithMandatoryParameters()" name="testGetLinkCatagoryWithMandatoryParameters" duration-ms="703" started-at="2014-07-07T12:12:53Z" description="bitly{getLinkCatagory} integration test with mandatory parameters." finished-at="2014-07-07T12:12:53Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkCatagoryWithNegativeParameters()" name="testGetLinkCatagoryWithNegativeParameters" duration-ms="525" started-at="2014-07-07T12:12:53Z" description="bitly{getLinkCatagory} integration test with negative parameters." finished-at="2014-07-07T12:12:54Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkClicksWithMandatoryParameters()" name="testGetLinkClicksWithMandatoryParameters" duration-ms="563" started-at="2014-07-07T12:12:54Z" description="bitly{getLinkClicks} integration test with mandatory parameters." finished-at="2014-07-07T12:12:54Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkClicksWithNegativeParameters()" name="testGetLinkClicksWithNegativeParameters" duration-ms="523" started-at="2014-07-07T12:12:54Z" description="bitly{getLinkClicks} integration test with negative parameters." finished-at="2014-07-07T12:12:55Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkContentWithMandatoryParameters()" name="testGetLinkContentWithMandatoryParameters" duration-ms="1086" started-at="2014-07-07T12:12:55Z" description="bitly{getLinkContent} integration test with mandatory parameters." finished-at="2014-07-07T12:12:56Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkContentWithNegativeParameters()" name="testGetLinkContentWithNegativeParameters" duration-ms="771" started-at="2014-07-07T12:12:56Z" description="bitly{getLinkContent} integration test with negative parameters." finished-at="2014-07-07T12:12:57Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkContentWithOptionalParameters()" name="testGetLinkContentWithOptionalParameters" duration-ms="1171" started-at="2014-07-07T12:12:57Z" description="bitly{getLinkContent} integration test with mandatory parameters." finished-at="2014-07-07T12:12:58Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkCountriesWithMandatoryParameters()" name="testGetLinkCountriesWithMandatoryParameters" duration-ms="591" started-at="2014-07-07T12:12:58Z" description="bitly{getLinkCountries} integration test with mandatory parameters." finished-at="2014-07-07T12:12:59Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkCountriesWithNegativeParameters()" name="testGetLinkCountriesWithNegativeParameters" duration-ms="586" started-at="2014-07-07T12:12:59Z" description="bitly{getLinkCountries} integration test with negative parameters." finished-at="2014-07-07T12:12:59Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkInfoWithMandatoryParameters()" name="testGetLinkInfoWithMandatoryParameters" duration-ms="582" started-at="2014-07-07T12:12:59Z" description="bitly{getLinkInfo} integration test with mandatory parameters." finished-at="2014-07-07T12:13:00Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkInfoWithNegativeParameters()" name="testGetLinkInfoWithNegativeParameters" duration-ms="516" started-at="2014-07-07T12:13:00Z" description="bitly{getLinkInfo} integration test with negative parameters." finished-at="2014-07-07T12:13:00Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkReferringDomainsWithMandatoryParameters()" name="testGetLinkReferringDomainsWithMandatoryParameters" duration-ms="552" started-at="2014-07-07T12:13:00Z" description="bitly{getLinkReferringDomains} integration test with mandatory parameters." finished-at="2014-07-07T12:13:01Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkReferringDomainsWithNegativeParameters()" name="testGetLinkReferringDomainsWithNegativeParameters" duration-ms="708" started-at="2014-07-07T12:13:01Z" description="bitly{getLinkReferringDomains} integration test with Negative parameters." finished-at="2014-07-07T12:13:01Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkSaveWithMandatoryParameters()" name="testGetLinkSaveWithMandatoryParameters" duration-ms="1046" started-at="2014-07-07T12:13:01Z" description="bitly{getLinkSave} integration test with mandatory parameters." finished-at="2014-07-07T12:13:03Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkSaveWithNegativeParameters()" name="testGetLinkSaveWithNegativeParameters" duration-ms="1005" started-at="2014-07-07T12:13:03Z" description="bitly{getLinkSave} integration test with negative parameters." finished-at="2014-07-07T12:13:04Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkSaveWithOptionalParameters()" name="testGetLinkSaveWithOptionalParameters" duration-ms="589" started-at="2014-07-07T12:13:04Z" description="bitly{getLinkSave} integration test with optional parameters." finished-at="2014-07-07T12:13:04Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkSharesWithMandatoryParameters()" name="testGetLinkSharesWithMandatoryParameters" duration-ms="544" started-at="2014-07-07T12:13:04Z" description="bitly{getLinkShares} integration test with mandatory parameters." finished-at="2014-07-07T12:13:05Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLinkSharesWithNegativeParameters()" name="testGetLinkSharesWithNegativeParameters" duration-ms="509" started-at="2014-07-07T12:13:05Z" description="bitly{getLinkShares} integration test with negative parameters." finished-at="2014-07-07T12:13:05Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLookUpWithMandatoryParameters()" name="testGetLookUpWithMandatoryParameters" duration-ms="1068" started-at="2014-07-07T12:13:05Z" description="bitly{getLookup} integration test with mandatory parameters." finished-at="2014-07-07T12:13:06Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetLookUpWithNegativeParameters()" name="testGetLookUpWithNegativeParameters" duration-ms="543" started-at="2014-07-07T12:13:06Z" description="bitly{getLookup} integration test with negative parameters." finished-at="2014-07-07T12:13:07Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetOAuthAppMandatoryParameters()" name="testGetOAuthAppMandatoryParameters" duration-ms="524" started-at="2014-07-07T12:13:07Z" description="bitly {getUOauthApp} integration test with mandatory parameters." finished-at="2014-07-07T12:13:07Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetOAuthAppNegativeParameters()" name="testGetOAuthAppNegativeParameters" duration-ms="657" started-at="2014-07-07T12:13:07Z" description="bitly {getUOauthApp} integration test with negative parameters." finished-at="2014-07-07T12:13:08Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetPopularLinksMandatoryParameters()" name="testGetPopularLinksMandatoryParameters" duration-ms="590" started-at="2014-07-07T12:13:08Z" description="bitly {getPopularLinks} integration test with mandatory parameters." finished-at="2014-07-07T12:13:09Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetPopularLinksNegativeParameters()" name="testGetPopularLinksNegativeParameters" duration-ms="511" started-at="2014-07-07T12:13:09Z" description="bitly {getPopularLinks} integration test with negative parameters." finished-at="2014-07-07T12:13:09Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetPopularLinksOptionalParameters()" name="testGetPopularLinksOptionalParameters" duration-ms="646" started-at="2014-07-07T12:13:09Z" description="bitly {getPopularLinks} integration test with optional parameters." finished-at="2014-07-07T12:13:10Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetProDomainMandatoryParameters()" name="testGetProDomainMandatoryParameters" duration-ms="537" started-at="2014-07-07T12:13:10Z" description="bitly {getProDomain} integration test with mandatory parameters." finished-at="2014-07-07T12:13:10Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetProDomainNegativeParameters()" name="testGetProDomainNegativeParameters" duration-ms="588" started-at="2014-07-07T12:13:10Z" description="bitly {getProDomain} integration test with negative parameters." finished-at="2014-07-07T12:13:11Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetReferrersMandatoryParameters()" name="testGetReferrersMandatoryParameters" duration-ms="531" started-at="2014-07-07T12:13:11Z" description="bitly {getReferrers} integration test with mandatory parameters." finished-at="2014-07-07T12:13:11Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetReferrersNegativeParameters()" name="testGetReferrersNegativeParameters" duration-ms="498" started-at="2014-07-07T12:13:11Z" description="bitly {getReferrers} integration test with negative parameters." finished-at="2014-07-07T12:13:12Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetReferrersOptionalParameters()" name="testGetReferrersOptionalParameters" duration-ms="620" started-at="2014-07-07T12:13:12Z" description="bitly {getReferrers} integration test with optional parameters." finished-at="2014-07-07T12:13:13Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetReferringDomainsMandatoryParameters()" name="testGetReferringDomainsMandatoryParameters" duration-ms="547" started-at="2014-07-07T12:13:13Z" description="bitly {getReferringDomains} integration test with mandatory parameters." finished-at="2014-07-07T12:13:13Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetReferringDomainsNegativeParameters()" name="testGetReferringDomainsNegativeParameters" duration-ms="527" started-at="2014-07-07T12:13:13Z" description="bitly {getReferringDomains} integration test with negative parameters." finished-at="2014-07-07T12:13:14Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetReferringDomainsOptionalParameters()" name="testGetReferringDomainsOptionalParameters" duration-ms="549" started-at="2014-07-07T12:13:14Z" description="bitly {getReferringDomains} integration test with optional parameters." finished-at="2014-07-07T12:13:14Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetSearchWithMandatoryParameters()" name="testGetSearchWithMandatoryParameters" duration-ms="2794" started-at="2014-07-07T12:13:14Z" description="bitly{getSearch} integration test with mandatory parameters." finished-at="2014-07-07T12:13:17Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetSearchWithNegativeParameters()" name="testGetSearchWithNegativeParameters" duration-ms="540" started-at="2014-07-07T12:13:17Z" description="bitly{getSearch} integration test with negative parameters." finished-at="2014-07-07T12:13:17Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetSearchWithOptionalParameters()" name="testGetSearchWithOptionalParameters" duration-ms="2613" started-at="2014-07-07T12:13:17Z" description="bitly{getSearch} integration test with mandatory parameters." finished-at="2014-07-07T12:13:20Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetShareCountsMandatoryParameters()" name="testGetShareCountsMandatoryParameters" duration-ms="561" started-at="2014-07-07T12:13:20Z" description="bitly {getShareCounts} integration test with mandatory parameters." finished-at="2014-07-07T12:13:21Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetShareCountsNegativeParameters()" name="testGetShareCountsNegativeParameters" duration-ms="576" started-at="2014-07-07T12:13:21Z" description="bitly {getShareCounts} integration test with negative parameters." finished-at="2014-07-07T12:13:21Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetShortnWithMandatoryParameters()" name="testGetShortnWithMandatoryParameters" duration-ms="555" started-at="2014-07-07T12:13:21Z" description="bitly{getShorten} integration test with mandatory parameters." finished-at="2014-07-07T12:13:22Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetShortnWithNegativeParameters()" name="testGetShortnWithNegativeParameters" duration-ms="571" started-at="2014-07-07T12:13:22Z" description="bitly{getShorten} integration test with negative parameters." finished-at="2014-07-07T12:13:22Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetShortnWithOptionalParameters()" name="testGetShortnWithOptionalParameters" duration-ms="537" started-at="2014-07-07T12:13:22Z" description="bitly{getShorten} integration test with optional parameters." finished-at="2014-07-07T12:13:23Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetTrackingDomainClicksMandatoryParameters()" name="testGetTrackingDomainClicksMandatoryParameters" duration-ms="637" started-at="2014-07-07T12:13:23Z" description="bitly {getTrackingDomainClicks} integration test with mandatory parameters." finished-at="2014-07-07T12:13:24Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetTrackingDomainClicksNegativeParameters()" name="testGetTrackingDomainClicksNegativeParameters" duration-ms="604" started-at="2014-07-07T12:13:24Z" description="bitly {getTrackingDomainClicks} integration test with negative parameters." finished-at="2014-07-07T12:13:24Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetTrackingDomainListMandatoryParameters()" name="testGetTrackingDomainListMandatoryParameters" duration-ms="513" started-at="2014-07-07T12:13:24Z" description="bitly {getTrackingDomainList} integration test with mandatory parameters." finished-at="2014-07-07T12:13:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetTrackingDomainListNegativeParameters()" name="testGetTrackingDomainListNegativeParameters" duration-ms="695" started-at="2014-07-07T12:13:25Z" description="bitly {getTrackingDomainList} integration test with negative parameters." finished-at="2014-07-07T12:13:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetTrackingDomainShortenCountsMandatoryParameters()" name="testGetTrackingDomainShortenCountsMandatoryParameters" duration-ms="593" started-at="2014-07-07T12:13:25Z" description="bitly {getTrackingDomainShortenCounts} integration test with mandatory parameters." finished-at="2014-07-07T12:13:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetTrackingDomainShortenCountsNegativeParameters()" name="testGetTrackingDomainShortenCountsNegativeParameters" duration-ms="550" started-at="2014-07-07T12:13:26Z" description="bitly {getTrackingDomainShortenCounts} integration test with negative parameters." finished-at="2014-07-07T12:13:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserBundleHistoryMandatoryParameters()" name="testGetUserBundleHistoryMandatoryParameters" duration-ms="615" started-at="2014-07-07T12:13:26Z" description="bitly {getUserBundleHistory} integration test with mandatory parameters." finished-at="2014-07-07T12:13:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserBundleHistoryNegativeParameters()" name="testGetUserBundleHistoryNegativeParameters" duration-ms="587" started-at="2014-07-07T12:13:27Z" description="bitly {getUserBundleHistory} integration test with negative parameters." finished-at="2014-07-07T12:13:28Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserBundleHistoryOptionalParameters()" name="testGetUserBundleHistoryOptionalParameters" duration-ms="1096" started-at="2014-07-07T12:13:28Z" description="bitly {getUserBundleHistory} integration test with optional parameters." finished-at="2014-07-07T12:13:29Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserClicksMandatoryParameters()" name="testGetUserClicksMandatoryParameters" duration-ms="539" started-at="2014-07-07T12:13:29Z" description="bitly {getUserClicks} integration test with mandatory parameters." finished-at="2014-07-07T12:13:29Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserClicksNegativeParameters()" name="testGetUserClicksNegativeParameters" duration-ms="567" started-at="2014-07-07T12:13:29Z" description="bitly {getUserClicks} integration test with negative parameters." finished-at="2014-07-07T12:13:30Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserInfoMandatoryParameters()" name="testGetUserInfoMandatoryParameters" duration-ms="669" started-at="2014-07-07T12:13:30Z" description="bitly {getUserInfo} integration test with mandatory parameters." finished-at="2014-07-07T12:13:31Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserInfoNegativeParameters()" name="testGetUserInfoNegativeParameters" duration-ms="678" started-at="2014-07-07T12:13:31Z" description="bitly {getUserInfo} integration test with negative parameters." finished-at="2014-07-07T12:13:31Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserInfoOptionalParameters()" name="testGetUserInfoOptionalParameters" duration-ms="936" started-at="2014-07-07T12:13:31Z" description="bitly {getUserInfo} integration test with optional parameters." finished-at="2014-07-07T12:13:32Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserLinkHistoryMandatoryParameters()" name="testGetUserLinkHistoryMandatoryParameters" duration-ms="1123" started-at="2014-07-07T12:13:32Z" description="bitly {getUserLinkHistory} integration test with mandatory parameters." finished-at="2014-07-07T12:13:33Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserLinkHistoryNegativeParameters()" name="testGetUserLinkHistoryNegativeParameters" duration-ms="593" started-at="2014-07-07T12:13:33Z" description="bitly {getUserLinkHistory} integration test with negative parameters." finished-at="2014-07-07T12:13:34Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserLinkHistoryOptionalParameters()" name="testGetUserLinkHistoryOptionalParameters" duration-ms="1149" started-at="2014-07-07T12:13:34Z" description="bitly {getUserLinkHistory} integration test with optional parameters." finished-at="2014-07-07T12:13:35Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserNetworkHistoryMandatoryParameters()" name="testGetUserNetworkHistoryMandatoryParameters" duration-ms="593" started-at="2014-07-07T12:13:35Z" description="bitly {getUserNetworkHistory} integration test with mandatory parameters." finished-at="2014-07-07T12:13:36Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserNetworkHistoryNegativeParameters()" name="testGetUserNetworkHistoryNegativeParameters" duration-ms="492" started-at="2014-07-07T12:13:36Z" description="bitly {getUserNetworkHistory} integration test with negative parameters." finished-at="2014-07-07T12:13:36Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetUserNetworkHistoryOptionalParameters()" name="testGetUserNetworkHistoryOptionalParameters" duration-ms="591" started-at="2014-07-07T12:13:36Z" description="bitly {getUserNetworkHistory} integration test with optional parameters." finished-at="2014-07-07T12:13:37Z">
+        </test-method>
+        <test-method status="PASS" signature="cleanUpEsb()" name="cleanUpEsb" is-config="true" duration-ms="120" started-at="2014-07-07T12:13:37Z" finished-at="2014-07-07T12:13:37Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
