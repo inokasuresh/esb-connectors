@@ -1,5 +1,0 @@
-{
-     "accessToken":"%s(accessTokenNegative)",
-    "longtUrlforLinkSave":"%s(longtUrlforLinkSave)",
-    "apiParameters":""
-}

@@ -1,5 +1,0 @@
-{
-     "accessToken":"%s(accessTokenNegative)",
-    "longtUrlforShorten":"%s(longtUrlforShorten)"
-
-}

@@ -1,7 +1,0 @@
-
-
-    {
-
-        "accessToken":"%s(accessToken)",
-        "NoOfLinks":"2"
-    }

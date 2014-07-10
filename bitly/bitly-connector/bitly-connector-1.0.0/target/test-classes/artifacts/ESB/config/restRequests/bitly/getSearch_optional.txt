@@ -1,7 +1,0 @@
-{
-
-       "accessToken":"%s(accessToken)",
-        "noOfLinks":"%s(noOfLinks)",
-        "query":"%s(query)"
-
-}
